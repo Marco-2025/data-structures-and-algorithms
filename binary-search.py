@@ -4,7 +4,8 @@ def binary_search(array, value):
     steps = 0
 
     while lower_bound <= upper_bound:
-        mid_point = round((upper_bound+lower_bound)/2)
+        #floored division // instead of / which is regular float division
+        mid_point = (upper_bound+lower_bound)//2
         mid_value = array[mid_point]
         steps += 1
         if mid_value == value:
