@@ -16,4 +16,5 @@ def binary_search(array, value):
     return "Not in array. " + "Steps: " + str(steps)
         
 ordered_array = range(1,101)
-print(binary_search(ordered_array, 50))
+print(binary_search(ordered_array, 76))
+#2 Steps to find 76

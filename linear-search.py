@@ -7,5 +7,6 @@ def linear_search(array, value):
         elif index == len(array)-1:
             return "steps: " + str(len(array))
 
-ordered_array = [1,2,3,4,5]
-print(linear_search(ordered_array, 5))
+ordered_array = range(1,101)
+print(linear_search(ordered_array, 76))
+#76 Steps to find 76
