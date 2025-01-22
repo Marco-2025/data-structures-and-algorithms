@@ -10,3 +10,4 @@ def linear_search(array, value):
 ordered_array = range(1,101)
 print(linear_search(ordered_array, 76))
 #76 Steps to find 76
+#O(N) Linear Time: The amount of steps taken by the algorithm are proportional to the amount of data elements
