@@ -19,3 +19,5 @@ def binary_search(array, value):
 ordered_array = range(1,101)
 print(binary_search(ordered_array, 76))
 #2 Steps to find 76
+#O(log N) Log Time: The algorithm takes as many steps as it takes to halve the
+#amount of data elements until reaching 1. I.e Log2(8) = 3
