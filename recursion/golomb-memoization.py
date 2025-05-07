@@ -4,7 +4,7 @@ def golomb(n, obj):
     
     if n not in obj:
         obj[n] = 1 + golomb(n - golomb(golomb(n-1, obj), obj), obj)
-    
+
     return obj[n]
 
 
